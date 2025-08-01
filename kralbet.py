@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 # Temel ayarlar
 KRAL_BET = "https://lll.istekbet3.tv"
 BASE_URL = "https://royalvipcanlimac.com/channels.php"
-PROXY_PREFIX = "https://vettelchannelowner-kralbet.hf.space/proxy/m3u?url="
+PROXY_PREFIX = "https://cors-anywhere.yidianzhishi.cn/"
 LINK_PREFIX = "https://1029kralbettv.com"
 M3U_FILE = "kralbet.m3u"
 

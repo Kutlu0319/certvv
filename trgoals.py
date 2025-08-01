@@ -17,7 +17,7 @@ class TRGoals:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
         self.httpx = Client(timeout=10, verify=False)
-        self.proxy_url_sablonu = "https://vettelchannel-trgoals.hf.space/proxy/m3u?url="
+        self.proxy_url_sablonu = "https://cors-anywhere.yidianzhishi.cn/"
 
     def referer_domainini_al(self):
         desen = r'#EXTVLCOPT:http-referrer=(https?://[^/]*trgoals[^/]*\.[^\s/]+)'
